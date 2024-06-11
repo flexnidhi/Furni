@@ -1,0 +1,300 @@
+:root {
+    --blue: #007bff;
+    --indigo: #6610f2;
+    --purple: #6f42c1;
+    --pink: #e83e8c;
+    --red: #dc3545;
+    --orange: #fd7e14;
+    --yellow: #ffc107;
+    --green: #28a745;
+    --teal: #20c997;
+    --cyan: #17a2b8;
+    --white: #fff;
+    --gray: #6c757d;
+    --gray-dark: #343a40;
+    --primary: #007bff;
+    --secondary: #6c757d;
+    --success: #28a745;
+    --info: #17a2b8;
+    --warning: #ffc107;
+    --danger: #dc3545;
+    --light: #f8f9fa;
+    --dark: #343a40;
+    --font-family-sans-serif: "Roboto", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+}
+
+.main {
+    background-color: #3b5d50;
+}
+
+/* Nav Bar */
+.navbar-brand {
+    font-size: 32px;
+    font-weight: 600;
+}
+
+.item {
+    margin-right: 28px;
+
+}
+
+.user,
+.cart {
+    padding-right: 25px;
+
+}
+
+.user-cart {
+    display: flex;
+    flex-direction: row;
+}
+
+@media screen and (max-width:991px) {
+    .nav_object{
+        margin: 0;
+    }
+
+}
+
+
+
+/* Start container 1  */
+
+/* hero */
+.hero {
+    background-color: #3b5d50;
+}
+
+.hero h1 {
+    font-size: 54px;
+    color: white;
+}
+
+.mb-4 {
+    color: #97a1ab;
+}
+
+.shop-btn {
+    border-radius: 25px;
+    padding: 10px 25px;
+    color: #2f2f2f;
+    background-color: #f9bf29;
+    border-color: #f9bf29;
+    font-size: 18px;
+}
+
+.shop-btn:hover {
+    background-color: #be8c0f;
+}
+
+.btn {
+    padding: 10px 25px;
+    border-width: 2px;
+    border-color: rgba(255, 255, 255, 0.3);
+    border-radius: 26px;
+    font-size: 18px;
+}
+
+.btn:hover {
+    color: white;
+    border-color: rgb(255, 255, 255);
+}
+
+/* End Container 1 */
+
+
+/* Start container 2 */
+
+/* Start Column 1  */
+
+.mb-4 {
+    color: #000000c9;
+}
+
+.ex-btn {
+    background-color: #000000;
+    color: white;
+    border: none
+}
+
+.ex-btn:hover {
+    background-color: #000000e2;
+
+}
+
+/* End column 1 */
+
+/* Start Column 2  */
+.product-title,
+.product-price {
+    color: black;
+    display: flex;
+    justify-content: center;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+.product-item {
+    text-decoration: none;
+}
+
+.product-section {
+    padding: 6%;
+}
+
+.why-choose-section {
+    padding: 6%;
+}
+
+.img-pic {
+    border-radius: 20px;
+}
+
+
+/* End container 3 */
+
+/* Start container 4*/
+.we-help-section {
+    padding: 6%;
+}
+
+.gridimg2,
+.gridimg1 {
+    width: 100%;
+}
+
+.gridimg3 {
+    position: absolute;
+    bottom: -92px;
+    left: 376px;
+}
+
+.tableImg {
+    width: 100%;
+}
+
+.tableParent {
+    position: relative;
+}
+
+
+
+@media screen and (max-width: 1270px) {
+    .gridimg3 {
+        position: absolute;
+        bottom: -92px;
+        left: 325px;
+    }
+}
+@media screen and (max-width: 1070px) {
+    .gridimg3 {
+        position: absolute;
+        bottom: -72px;
+        left: 279px;
+    }
+}
+@media screen and (max-width: 549px) {
+    .gridimg3 {
+        position: absolute;
+        bottom: -59px;
+        left: 210px;
+    }
+}
+@media screen and (max-width: 450px) {
+    .gridimg3 {
+        position: absolute;
+        bottom: -45px;
+        left: 199px;
+    }
+}
+
+/*  End Container 4 */
+
+/* start container 5 */
+/* popular prodect  */
+.popular-product{
+    padding: 6%;
+}
+.popular{
+    padding: 10px;
+    padding-left: 33px;
+    padding-right: 33px;
+}
+.read-more{
+    text-decoration: none;
+    color: black;
+}
+
+
+/* end container 5 */
+
+/* footer section */
+.Subscribe{
+    background-color: #3b5d50 ;
+}
+.Subscribe:hover{
+    background-color: #1c3d30 ;
+}
+.Furni{
+    color: #1c3d30 ;
+}
+.foot{
+    padding-top:2%
+}
+
+
+/*  
+
+contact us
+
+*/
+.intro-contact{
+    position: relative;
+    top: 44px;
+}
+.con_us{
+    background-color: #d0d1cf94;
+    padding: 6%;
+}
+.msg-btn {
+    background-color: black;
+    color: white;
+}
+.msg-btn:hover{
+    background-color: #000000;
+}
+.foot_container{
+    
+    padding: 2%;
+
+}
+.icon-item{
+    border-radius: 10px;
+    width: 60px;
+    line-height: 50px;
+    text-align: center;
+    background: #3b5d50;
+    margin-right: 20px;
+    color: #ffffff;
+}
+
+/* 
+
+about us
+*/
+.intro-about{
+    position: relative;
+    top: 28px;
+}
+
+.person_name{
+   
+    color: black;
+}
+
+.footer_container, .cooses-us{
+    
+    padding-top: 6%;
+
+}
